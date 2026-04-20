@@ -1,0 +1,13 @@
+SESSION 17: PRACTICAL EXAM REPORT
+Operator: [Dolapo Adewale John]
+=======================================
+
+TASK 1 (FIND): What single command did you use to find all .log files owned by root?
+[sudo find / -user root -name "forge_*.log" 2>/dev/null]
+
+TASK 2 (MV): What command did you use to move the found files into ~/Exam_Submission?
+[sudo mv /tmp/forge_alpha.log . && sudo mv /tmp/forge_beta.log .]
+
+TASK 3 (CHMOD): What command did you use to set the files to Read-Only (444)?
+[sudo chmod 444 forge_alpha.log forge_beta.log]
+=======================================
